@@ -1,14 +1,13 @@
-# FilePicker
-Super Lite Android Library to select files/directories from Device Storage.
+# EasyFilePicker
+It's the newer and enhanced version of FilePicker library. 
 
-### Developed by
+### Orginaly Developed by
 [Angad Singh](https://www.github.com/angads25) ([@angads25](https://www.twitter.com/angads25))
 
 ### Benchmark:
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9) <a href="http://www.methodscount.com/?lib=com.github.angads25%3Afilepicker%3A1.1.1"><img src="https://img.shields.io/badge/Methods and size-271 | 43 KB-e91e63.svg"/></a>
 
-### Where to Find:
-[ ![Download](https://api.bintray.com/packages/angads25/maven/filepicker/images/download.svg) ](https://bintray.com/angads25/maven/filepicker/_latestVersion) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.angads25/filepicker/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.angads25/filepicker) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FilePicker-blue.svg?style=flat)](http://android-arsenal.com/details/1/3950)
+
 
 ### Read all about internal classes and functions in the [wiki](https://github.com/Angads25/android-filepicker/wiki).
 
@@ -18,12 +17,16 @@ Super Lite Android Library to select files/directories from Device Storage.
 * No permissions required.
 * Files, Directory Selection.
 * Single or Multiple File selection.
+* Fullscreen view.
+* Set maximum limit selection.
+* Access both internal and external storage files.
+
 
 ### Installation
 
 * Library is also Available in MavenCentral, So just put this in your app dependencies to use it:
 ```gradle
-    compile 'com.github.angads25:filepicker:1.1.1'
+    implementation 'in.nikhil:EasyFilePicker:0.0.1'
 ```
 
 ### Usage
@@ -175,15 +178,6 @@ eg. /sdcard:/mnt:
 
 ![Screenshot 5](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/theme_device_default.png)
 
-### Performance
-
-#### GPU Overdraw
-
-![Performance 1](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/performance_overdraw.png)
-
-#### GPU Rendering
-
-![Performance 2](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/profile_gpu_rendering.png)
 
 ### License
     Copyright (C) 2016 Angad Singh
