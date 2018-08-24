@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'EasyFilePicker'
+
+    publishedGroupId = 'com.github.Nikhil-z'
+    libraryName = 'Easy File Picker'
+    artifact = 'EasyFilePicker'
+
+    libraryDescription = 'A super lite Android Library To pick Files from Internal and external Storage.'
+
+    siteUrl = 'https://github.com/Nikhil-z/Easy-File-Picker'
+    gitUrl = 'https://github.com/Nikhil-z/Easy-File-Picker.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'Nikhil-z'
+    developerName = 'Nikhil-z'
+    developerEmail = 'nikhilworldy@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 1
+        versionName "0.0.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+//apply from: 'https://raw.githubusercontent.com/Nikhil-z/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/Nikhil-z/JCenter/master/bintrayv1.gradle'
