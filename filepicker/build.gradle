@@ -44,5 +44,8 @@ android {
     }
 }
 
-//apply from: 'https://raw.githubusercontent.com/Nikhil-z/JCenter/master/installv1.gradle'
-//apply from: 'https://raw.githubusercontent.com/Nikhil-z/JCenter/master/bintrayv1.gradle'
+// Copy the file locally and use
+/*apply from: 'filepicker-release-aar.gradle'*/
+/*
+apply from: 'https://raw.githubusercontent.com/angads25/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/angads25/JCenter/master/bintrayv1.gradle'*/
