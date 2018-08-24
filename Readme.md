@@ -158,29 +158,16 @@ eg. /sdcard:/mnt:
 
 ### Screenshot
 
-#### Theme.Black
-
-![Screenshot 1](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/theme_black.png)
-
-#### Theme.Holo
-
-![Screenshot 2](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/theme_holo.png)
 
 #### Theme.Holo.Light
 
 ![Screenshot 3](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/theme_holo_light.png)
 
-#### Theme.Material
 
-![Screenshot 4](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/theme_material.png)
-
-#### Theme.DeviceDefault
-
-![Screenshot 5](https://raw.githubusercontent.com/Angads25/android-filepicker/release/screenshots/theme_device_default.png)
 
 
 ### License
-    Copyright (C) 2016 Angad Singh
+    Copyright (C) 2018 Angad Singh
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
